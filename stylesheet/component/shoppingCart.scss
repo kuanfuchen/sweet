@@ -1,0 +1,75 @@
+@import "./color";
+
+.shoppingcartFood-1 {
+    background: url('/img/img/food-photographer-jennifer-pallian-AHovO6qOdFg-unsplash.jpg')
+}
+
+.shoppingcartFood-2 {
+    background: url('/img/img/brooke-lark-of0pMsWApZE-unsplash.jpg');
+}
+
+.shoppingcartFood-3 {
+    background: url('/img/img/whitney-wright-68A4Vq_2biY-unsplash.jpg');
+}
+
+.shoppingcartFood-4 {
+    background: url('/img/img/rezel-apacionado-nLz2z-JvCe4-unsplash.jpg');
+}
+
+.shoppingcartFood {
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.shop-itemDelete {
+    margin-top: 30px;
+}
+
+.shop-product-text,
+.shopping-money,
+.shop-itemDelete {
+    font-size: 20px;
+    font-weight: 600;
+    color: $color-five;
+    margin-right: 30px;
+}
+
+.shopping-md-money {
+    border-top: 1px solid $color-third;
+    border-bottom: 1px solid $color-third;
+
+    p {
+        display: none;
+    }
+}
+
+.order-list tr {
+    background: $color-five;
+    color: white;
+
+
+}
+
+@media (max-width:992px) {
+
+    .shop-itemDelete,
+    .shopping-money {
+        display: none;
+    }
+
+    .shopping-md-money p {
+        display: block;
+    }
+
+    .order-list tr {
+        background: #ffffff;
+        color: #3f5d45;
+    }
+
+    .container {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+}

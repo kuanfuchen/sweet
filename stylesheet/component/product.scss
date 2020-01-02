@@ -1,0 +1,95 @@
+@import "./color";
+
+
+.header {
+    background-image: url('/img/img/toa-heftiba-GOG9Z4RQEsM-unsplash.jpg');
+    height: 496px;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* card-start */
+.list-format {
+    font-size: 24px;
+    color: $color-five;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.card-bg-1 {
+    background-image: url('/img/img/brenda-godinez-MsTOg6rhRVk-unsplash.jpg');
+    height: 315px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.card-bg-2 {
+    background-image: url('/img/img/monika-grabkowska-xdGszqil4GI-unsplash.jpg');
+    height: 315px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.card-bg-3 {
+    background-image: url('/img/img/brooke-lark-of0pMsWApZE-unsplash.jpg');
+    height: 315px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.card-bg-4 {
+    background-image: url('/img/img/food-photographer-jennifer-pallian-PANMCipEL2Y-unsplash.jpg');
+    height: 315px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.card-bg-5 {
+    background-image: url('/img/img/le-buzz-zQLYPVt89d4-unsplash.jpg');
+    height: 315px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.card-bg-6 {
+    background-image: url('/img/img/food-photographer-jennifer-pallian-gw78G_i7GYo-unsplash.jpg');
+    height: 315px;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.item-border {
+    border: 1px solid $color-first;
+}
+
+.btn-color {
+    background-color: $color-first;
+    border: 1px solid $color-first;
+    color: $color-five;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.list-group-item.active {
+    background: $color-first;
+    color: $color-five;
+    border: 1px solid $color-first;
+}

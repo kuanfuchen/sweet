@@ -1,0 +1,58 @@
+@import "./color";
+
+.footer-bg {
+    margin-top: 20px;
+}
+
+.line-pointer,
+.point-img {
+    position: relative;
+    height: 32px;
+}
+
+.line-pointer::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    left: 0;
+    right: 20%;
+    background: $color-four;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.point-img::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 10px;
+    background: $color-four;
+    border-radius: 50%;
+    border: 1px solid $color-four;
+
+}
+
+
+
+.point-img-non::after {
+    background: $color-five;
+    z-index: 1;
+
+}
+
+
+@media (max-width:786px) {
+    .checkout-list {
+        display: none;
+    }
+
+    section>.container {
+        padding: 0 0 0 0;
+    }
+
+    .footer-bg {
+        margin-top: 0;
+    }
+
+}

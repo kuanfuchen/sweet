@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* email-start */
+.email-bg {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.logo-bg {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.email-text {
+  padding-top: 3px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.arrow-image {
+  width: 64px;
+  height: 56px;
+  background-color: #ffe180;
+  border: 0px;
+}
+
+/* email-end */
+/* footer-start */
+.footer-bg {
+  background-color: #EAF0ED;
+  height: auto;
+}
+
+.footer-img {
+  height: 219px;
+  -webkit-transform: translateX();
+          transform: translateX();
+}
+
+@media (min-width: 1200px) {
+  .footer-img {
+    -webkit-transform: translateX(-60px);
+            transform: translateX(-60px);
+  }
+}
+
+li {
+  list-style: none;
+}
+
+.data-messenger {
+  margin-top: 115px;
+  font-size: 16px;
+}
+
+.soft-message {
+  font-size: 16px;
+}
+
+/* footer-end */
+@media (max-width: 768px) {
+  .footer-title,
+  .footer-img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=shared.css.map */

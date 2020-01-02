@@ -1,0 +1,225 @@
+/* header-start */
+.header-bg {
+  background-image: url("/img/img/annie-spratt-1HPTYLozDGw-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 496px;
+}
+
+.bg-feature {
+  background-position: center center;
+  background-size: cover;
+  height: 256px;
+}
+
+.header-bg-featured-1 {
+  background-image: url("/img/img/rezel-apacionado-nLz2z-JvCe4-unsplash.jpg");
+  border-right: 1px solid #fff;
+}
+
+.header-bg-featured-2 {
+  background-image: url("/img/img/lidya-nada--iX-0JI8-0Y-unsplash.jpg");
+  border-right: 1px solid #fff;
+}
+
+.header-bg-featured-3 {
+  background-image: url("/img/img/brooke-lark-GTMGG-xvxdU-unsplash.jpg");
+}
+
+.color-featured {
+  background-color: #3f5d45;
+  z-index: 1;
+  opacity: .9;
+  height: 256px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.color-featured.active {
+  background-color: #ffe180;
+  opacity: .6;
+}
+
+.color-featured:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: .6;
+  background-color: #ffe180;
+  color: #3f5d45;
+}
+
+.text-featured {
+  letter-spacing: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+/* header-end  */
+/* section-start */
+.intro-top {
+  margin-top: 120px;
+}
+
+.intro-bg {
+  background-color: #EAF0ED;
+  height: 420px;
+}
+
+.intro-image {
+  background-position: center center;
+  background-size: cover;
+  margin-top: -20px;
+  height: 460px;
+  z-index: 1;
+}
+
+.intro-image-1 {
+  background-image: url("/img/img/le-buzz-zQLYPVt89d4-unsplash.jpg");
+}
+
+.intro-image-2 {
+  background-image: url("/img/img/monika-grabkowska-z5bPsP916QA-unsplash.jpg");
+}
+
+.intro-font {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  color: #8DA291;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.intro-font p {
+  height: 300px;
+}
+
+.media-intro-text {
+  display: none;
+}
+
+.intro-title {
+  margin-top: -20px;
+  text-align: right;
+}
+
+.intro-bgtitle {
+  margin-top: 80px;
+  height: 340px;
+  margin-bottom: 80px;
+}
+
+.intro-bg-title {
+  max-width: 100%;
+}
+
+.intro-md-bgtitle {
+  display: none;
+}
+
+/* section-end */
+/* card-start */
+.card-bg-format {
+  background-size: cover;
+  background-position: center center;
+  height: 315px;
+}
+
+.card-bg-1 {
+  background-image: url("/img/img/elena-koycheva-faqm2syfUIE-unsplash.jpg");
+}
+
+.card-bg-2 {
+  background-image: url("/img/img/lidya-nada--iX-0JI8-0Y-unsplash.jpg");
+}
+
+.card-bg-3 {
+  background-image: url("/img/img/brenda-godinez-MsTOg6rhRVk-unsplash.jpg");
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.item-border {
+  border: 1px solid #EAF0ED;
+}
+
+.btn-color {
+  background-color: #EAF0ED;
+  border: 1px solid #EAF0ED;
+  color: #3f5d45;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+/* card-end */
+/* media-sm */
+@media (max-width: 768px) {
+  .intro-font {
+    -webkit-writing-mode: unset;
+        -ms-writing-mode: unset;
+            writing-mode: unset;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .intro-font p {
+    height: auto;
+  }
+  .intro-bg {
+    height: auto;
+  }
+  .intro-image {
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .intro-image-1 {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0;
+  }
+  .intro-title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: -90px;
+  }
+  .web-intro-text {
+    display: none;
+  }
+  .media-intro-text {
+    display: block;
+  }
+  .intro-bgtitle {
+    display: none;
+  }
+  .intro-md-bgtitle {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 256px;
+    display: block;
+  }
+  .btn-block {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shopping</title>
+    <link rel="stylesheet" href="/stylesheet/component/shoppingCart.css">
+    <link rel="stylesheet" href="stylesheet/all.css">
+    <link rel="stylesheet" href="./stylesheet/component/shared.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo-all-dark.svg" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/index.html">首頁</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  " href="/product.html">甜點
+                        </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link " href="/login.html">登入</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="/shoppingCart.html"><span class="sr-only">(current)</span><i
+                                class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- nav -->
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-8  py-2">
+                <div class="h4 text-center text-primary bg-success py-3">
+                    你的購物車
+                </div>
+                <div class="media d-flex justify-content-between border-bottom py-3 ">
+                    <div class="shoppingcartFood-1 shoppingcartFood"></div>
+
+                    <div class="shop-product-text align-self-center">
+                        <span>焦糖瑪卡龍</span>
+                        <p>NT$ 450</p>
+                    </div>
+                    <div class="shopping-number align-self-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">-</span>
+                                        <span class="sr-only">negative</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">+</span>
+                                        <span class="sr-only">positive</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="shopping-money align-self-center ">
+                        <p>NT$ 900</p>
+                    </div>
+                    <div class="shop-itemDelete ">
+                        <a href="#"><i class="fas fa-trash"></i></a>
+                    </div>
+                </div>
+                <div class="shopping-md-money d-flex justify-content-end">
+                    <p class="mt-2 mb-2 text-primary">NT$ 900</p>
+                </div>
+                <div class="media d-flex justify-content-between border-bottom py-3">
+                    <div class="shoppingcartFood-2 shoppingcartFood"></div>
+
+                    <div class="shop-product-text align-self-center">
+                        <span>焦糖瑪卡龍</span>
+                        <p>NT$ 450</p>
+                    </div>
+                    <div class="shopping-number align-self-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">-</span>
+                                        <span class="sr-only">negative</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">+</span>
+                                        <span class="sr-only">positive</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="shopping-money align-self-center">
+                        <p>NT$ 900</p>
+                    </div>
+                    <div class="shop-itemDelete ">
+                        <a href="#"><i class="fas fa-trash"></i></a>
+                    </div>
+                </div>
+                <div class="shopping-md-money d-flex justify-content-end">
+                    <p class="mt-2 mb-2 text-primary">NT$ 900</p>
+                </div>
+
+                <div class="media d-flex justify-content-between border-bottom py-3">
+                    <div class="shoppingcartFood-3 shoppingcartFood"></div>
+
+                    <div class="shop-product-text align-self-center">
+                        <span>焦糖瑪卡龍</span>
+                        <p>NT$ 450</p>
+                    </div>
+                    <div class="shopping-number align-self-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">-</span>
+                                        <span class="sr-only">negative</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">+</span>
+                                        <span class="sr-only">positive</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="shopping-money align-self-center">
+                        <p>NT$ 900</p>
+                    </div>
+                    <div class="shop-itemDelete ">
+                        <a href="#"><i class="fas fa-trash"></i></a>
+                    </div>
+                </div>
+                <div class="shopping-md-money d-flex justify-content-end">
+                    <p class="mt-2 mb-2 text-primary">NT$ 900</p>
+                </div>
+
+
+                <div class="media d-flex justify-content-between border-bottom py-3">
+                    <div class="shoppingcartFood-4 shoppingcartFood"></div>
+
+                    <div class="shop-product-text align-self-center">
+                        <span>焦糖瑪卡龍</span>
+                        <p>NT$ 450</p>
+                    </div>
+                    <div class="shopping-number align-self-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">-</span>
+                                        <span class="sr-only">negative</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">+</span>
+                                        <span class="sr-only">positive</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="shopping-money align-self-center">
+                        <p>NT$ 900</p>
+                    </div>
+                    <div class="shop-itemDelete ">
+                        <a href="#"><i class="fas fa-trash"></i></a>
+                    </div>
+
+                </div>
+                <div class="shopping-md-money d-flex justify-content-end">
+                    <p class="mt-2 mb-2 text-primary">NT$ 900</p>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-4 mt-2">
+                <table class="table  m-0 order-list">
+                    <thead class="my-0">
+                        <tr>
+                            <th colspan="2" class="text-center border-0">訂單摘要
+                                <hr class="bg-white " style="width: 80%">
+                            </th>
+                        </tr>
+
+                    </thead>
+                    <tbody class=" ">
+
+                        <tr>
+                            <th scope="row" class="border-0">小計</th>
+
+                            <td class="text-right border-0">NT$ 2,700</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="border-0">運費</th>
+
+                            <td class="text-right border-0">NT$ 300</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="border-0">總計</th>
+
+                            <td class="text-right border-0">NT$ 3,000</td>
+                        </tr>
+                    </tbody>
+
+
+                </table>
+                <a class="btn btn-warning btn-block text-primary" href="checkout.html" style="font-weight: 600">結帳</a>
+                <!-- <button class="" >
+                    
+                </button> -->
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer-bg ">
+        <div class="container">
+            <div class="row  d-flex">
+                <div class="col-sm-6 mt-5 d-flex flex-column">
+                    <img src="/img/logotype.svg" style="width:172px" class="">
+                    <ul class="text-primary px-0 data-messenger">
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-md-2 mt-5  text-left footer-title">
+                    <img src="/img/footer__title.svg" class="footer-img ">
+                </div>
+            </div>
+            <div class="soft-message  row  mt-2">
+
+                <div class="col-md-7">
+                    <img src="/img/ic-line@.svg" alt="" style="width: 32px;">
+                    <img src="/img/ic-facebook.svg" alt="" style="width: 32px;">
+                </div>
+                <div class="col-md-5 mt-2">
+                    <p class="text-primary ">© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

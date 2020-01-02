@@ -1,0 +1,64 @@
+.bg-img {
+  background-image: url("/img/img/brooke-lark-wMzx2nBdeng-unsplash.jpg");
+  height: 460px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.line-pointer,
+.point-img {
+  position: relative;
+  height: 32px;
+}
+
+.line-pointer {
+  margin-top: 148px;
+}
+
+.line-pointer::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 15%;
+  right: 15%;
+  background: #3f5d45;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.point-img::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 10px;
+  background: #3f5d45;
+  border-radius: 50%;
+  border: 1px solid #3f5d45;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.point-img-non::after {
+  background: #3f5d45;
+  z-index: 1;
+}
+
+.h4 {
+  font-weight: 900;
+}
+
+.btnFinish-lg {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .btnFinish-lg {
+    display: block;
+  }
+  .btnFinish {
+    display: none;
+  }
+}
+/*# sourceMappingURL=finish.css.map */

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="stylesheet/all.css">
+    <link rel="stylesheet" href="/stylesheet/component/login.css">
+    <link rel="stylesheet" href="./stylesheet/component/shared.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo-all-dark.svg" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/index.html">首頁</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  " href="/product.html">甜點
+                        </a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link text-primary" href="/login.html">登入<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="/shoppingCart.html"><i
+                                class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 my-3">
+                <div class="row ">
+                    <div class="col-md-6 text-center  text-white  mt-3 bg-primary pt-3 pb-1">
+                        <p class="h4 ">會員登入</p>
+                    </div>
+                </div>
+
+                <div class="row flex-row-reverse">
+                    <div class="col-md-6 px-0">
+                        <div class="bg-success">
+                            <div class="row justify-content-center social-format">
+
+                                <div class="col-10 text-center">
+                                    <p class="h4 social-text  mt-4">—— 連結社群帳號 ——</p>
+                                    <div class="row btn-all-format">
+                                        <div class="col-4 col-md-12 px-0"><button type="submit "
+                                                class="btn btn-block btn-color rounded-0 btn-format ">facebook</button>
+                                        </div>
+                                        <div class="col-4 col-md-12 px-0"> <button type="submit "
+                                                class="btn btn-block btn-color rounded-0 btn-format ">Google</button>
+                                        </div>
+                                        <div class="col-4 col-md-12 px-0"><button type="submit"
+                                                class="btn btn-block btn-color rounded-0 btn-format ">YAHOO!</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0 mt-0">
+
+                        <form class="bg-primary text-white pt-3  " style="height: 255px">
+
+
+                            <div class="form-group text-center">
+                                <div class="input-group mb-3 px-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text rounded-0" id="basic-addon1"><i
+                                                class="fas fa-user"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control " placeholder="電子信箱/行動電話"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3 px-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text rounded-0" id="basic-addon1"><i
+                                                class="fas fa-key"></i></span>
+                                    </div>
+                                    <input type="password" class="form-control" placeholder="請輸入密碼"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="form-check mb-3 ml-3">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1"
+                                        style="width: 18px;height:24px;">
+                                    <label class="form-check-label" for="exampleCheck1">記住我</label>
+                                </div>
+                            </div>
+                        </form>
+                        <button type="submit" class=" btn btn-warning btn-block rounded-0 text-primary"
+                            style="height: 65px;font-weight: bold;letter-spacing: 2px;">登入帳號</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer class="footer-bg mt-4">
+        <div class="container">
+            <div class="row  d-flex">
+                <div class="col-sm-6 mt-5 d-flex flex-column">
+                    <img src="/img/logotype.svg" style="width:172px" class="">
+                    <ul class="text-primary px-0 data-messenger">
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-md-2 mt-5  text-left footer-title">
+                    <img src="/img/footer__title.svg" class="footer-img ">
+                </div>
+            </div>
+            <div class="soft-message  row  mt-2">
+
+                <div class="col-md-7">
+                    <img src="/img/ic-line@.svg" alt="" style="width: 32px;">
+                    <img src="/img/ic-facebook.svg" alt="" style="width: 32px;">
+                </div>
+                <div class="col-md-5 mt-2">
+                    <p class="text-primary ">© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

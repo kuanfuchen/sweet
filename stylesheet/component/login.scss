@@ -1,0 +1,47 @@
+@import "./color";
+
+.btn-color {
+    background: $color-four;
+    font-size: 24px;
+    border: 1px solid $color-first;
+}
+
+.btn-format,
+.social-text {
+    color: $color-third;
+    margin-bottom: 16px;
+    font-weight: 600;
+
+}
+
+.social-text {
+    display: none;
+}
+
+.btn-all-format {
+    padding-top: 15px;
+}
+
+.social-btn {
+    background: $color-first;
+    height: 116px;
+    margin-bottom: 10px;
+
+}
+
+@media (min-width:768px) {
+    .social-format {
+        height: 350px;
+        margin-top: -50px;
+
+    }
+
+    .btn-all-format {
+        padding-top: 0px;
+    }
+
+    .social-text {
+        display: block;
+        margin-bottom: 36px;
+    }
+}
